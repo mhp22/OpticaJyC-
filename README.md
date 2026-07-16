@@ -23,7 +23,7 @@ Sitio web profesional para &Oacute;ptica JyC, empresa especializada en salud vis
 ## Despliegue
 
 - **GitHub:** [https://github.com/mhp22/OpticaJyC-](https://github.com/mhp22/OpticaJyC-)
-- **Netlify:** *(pendiente de despliegue)*
+- **Netlify:** [https://opticajycg13.netlify.app/](https://opticajycg13.netlify.app/)
 
 ## Colores corporativos
 
