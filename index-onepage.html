@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>&Oacute;ptica JyC</title>
+    <link href="css/plugins/plugins.css" rel="stylesheet">
+    <link href="dzsparallaxer/dzsparallaxer.css" rel="stylesheet">
+    <link href="dzsparallaxer/scroller.css" rel="stylesheet">
+    <link href="dzsparallaxer/advancedscroller/plugin.css" rel="stylesheet">
+    <link href="linearicons/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            color: #444;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif !important;
+        }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            font-family: 'Cormorant SC', serif !important;
+            color: #013C4E;
+        }
+        a { color: #376F70; }
+        a:hover { color: #013C4E; }
+        .lead { color: #555; font-size: 1.15rem; }
+        .text-white-gray { color: rgba(255,255,255,.9) !important; }
+        .pricing-card p { color: #555; }
+        .pricing-card ul li { color: #555; }
+        .form-card p { color: #555; }
+        .proceso-card ol li { color: #444; }
+        .bg-primary { background: #376F70 !important; border-color: #376F70 !important; }
+        .text-primary { color: #376F70 !important; }
+        .btn-primary { background: #376F70 !important; color: #fff !important; border-color: #376F70 !important; }
+        .btn-primary:hover { background: #013C4E !important; border-color: #013C4E !important; }
+        .navbar.navbar-light .navbar-nav .nav-link:hover,
+        .navbar.navbar-light .navbar-nav .nav-link.active:hover { color: #376F70 !important; }
+        .navbar-light .navbar-nav .active>.nav-link,
+        .navbar-light .navbar-nav .nav-link.active { color: #376F70 !important; }
+        .btn-outline-primary { color: #376F70 !important; border-color: #376F70 !important; }
+        .btn-outline-primary:hover { background: #376F70 !important; border-color: #376F70 !important; color: #fff !important; }
+        .navbar-brand>img { height: 85px; margin-top: -4px; }
+        #inicio .rev_slider_wrapper { margin-top: 120px !important; }
+        .img-fit { width: 100%; height: 500px; object-fit: cover; object-position: center; border-radius: 8px; }
+        .gallery-item { border-top-color: #376F70 !important; }
+        footer.footer { background: #013C4E !important; }
+        .bg-dark { background: #013C4E !important; }
+        .btn-dark { background: #013C4E !important; border-color: #013C4E !important; }
+        .btn-dark:hover { background: #376F70 !important; border-color: #376F70 !important; }
+        .bg-faded { background: #EFDFCF !important; }
+        .semi-black-overlay { background: rgba(1,60,78,.7) !important; }
+        .pricing-card { border-color: #BBD7DB !important; }
+        .btn-white-outline { border-color: #D69F69 !important; color: #D69F69 !important; }
+        .btn-white-outline:hover { background: #D69F69 !important; color: #fff !important; border-color: #D69F69 !important; }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 999;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,.3);
+            transition: .3s;
+        }
+        .whatsapp-float:hover { transform: scale(1.1); }
+        .whatsapp-float img { width: 35px; height: 35px; }
+        .form-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .form-card h3 { margin-bottom: 20px; }
+        .proceso-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.08);
+            height: 100%;
+        }
+        .proceso-card ol { padding-left: 20px; }
+        .proceso-card ol li { margin-bottom: 8px; }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbarsExampleDefault" data-offset="100">
+    <div id="preloader">
+        <div id="preloader-inner"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white header-center navbar-onepage fixed-top">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#inicio">
+                <img src="images/logo-optica.jpg" alt="&Oacute;ptica JyC">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a data-scroll class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a data-scroll class="nav-link" href="#quienes">Qui&eacute;nes Somos</a></li>
+                    <li class="nav-item"><a data-scroll class="nav-link" href="#servicios">Servicios</a></li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a data-scroll class="nav-link" href="#operativos">Operativos</a></li>
+                    <li class="nav-item"><a data-scroll class="nav-link" href="#galeria">Galer&iacute;a</a></li>
+                    <li class="nav-item"><a data-scroll class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio">
+        <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+            data-alias="classic4export" data-source="gallery"
+            style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+            <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+                <ul>
+                    <li data-index="rs-3045" data-transition="parallaxtoleft" data-slotamount="default"
+                        data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut"
+                        data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-fstransition="fade"
+                        data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro"
+                        data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+                        data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <img src="images/bg3.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <div class="tp-caption mainSlide-Subtitle   tp-resizeme" id="slide-1706-layer-1"
+                            data-x="['left','left','left','left']" data-hoffset="['-150','-150','-125','-85']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-110','-110','-90','-30']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-fontsize="['20','20','20','20']" data-lineheight="['25','25','25','25']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":800,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap;text-transform:left;">Bienvenidos a &Oacute;ptica JyC</div>
+                        <div class="tp-caption mainSlide-Title  tp-resizeme" id="slide-1706-layer-2"
+                            data-x="['left','left','left','left']" data-hoffset="['70','70','70','15']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-20','-20','00','50']"
+                            data-fontsize="['55','55','40','30']" data-lineheight="['65','65','55','35']"
+                            data-width="['800','700','621','420']" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; text-align:left; max-width:1170px; white-space: normal;">Cuidamos tu visi&oacute;n
+                            <br>en &Oacute;ptica JyC
+                        </div>
+                        <div class="tp-caption mainSlide-Button btn btn-lg btn-white " id="slide-1706-layer-3"
+                            data-x="['left','left','left','left']" data-hoffset="['70','70','70','15']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['80','80','100','130']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
+                            data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
+                            data-responsive_offset="on" data-responsive="off"
+                            data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']" data-paddingtop="[12,12,12,12]"
+                            data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
+                            data-paddingleft="[35,35,35,35]"
+                            style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            CON&Oacute;CENOS
+                        </div>
+                    </li>
+                    <li data-index="rs-3046" data-transition="parallaxtoleft" data-slotamount="default"
+                        data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut"
+                        data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-fstransition="fade"
+                        data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro"
+                        data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+                        data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <img src="images/bg4.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <div class="tp-caption mainSlide-Title   tp-resizeme" id="slide-1706-layer-4"
+                            data-x="['right','right','right','right']" data-hoffset="['50','50','50','20']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','1']"
+                            data-fontsize="['55','55','40','30']" data-lineheight="['65','65','50','35']"
+                            data-width="['1140','900','721','420']" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['right','right','right','right']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]"
+                            data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: normal;">Ve donde quieras
+                            <br>con &Oacute;ptica JyC</div>
+                        <div class="tp-caption mainSlide-caption mainSlide-Subtitle  tp-resizeme"
+                            id="slide-1706-layer-5" data-x="['right','right','right','right']"
+                            data-hoffset="['50','50','50','20']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['90','90','90','50']" data-fontsize="['24','24','24','16']"
+                            data-lineheight="['34','34','34','26']" data-width="['800','700','621','420']"
+                            data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['right','right','right','right']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; text-align:left; max-width:1170px; white-space: normal;">M&aacute;s de 16 a&ntilde;os cuidando tu salud visual, donde t&uacute; est&eacute;s
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer" style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pt90 pb60" id="quienes">
+        <div class="row pb50">
+            <div class="col-md-8 mr-auto ml-auto text-center">
+                <h2 class="font300 h1">
+                    &iquest;Qui&eacute;nes <span class="text-primary">Somos</span>?
+                </h2>
+                <p class="lead">
+                    En &Oacute;ptica JyC somos un equipo de profesionales de la salud visual con m&aacute;s de
+                    16 a&ntilde;os de experiencia en el rubro. Nacimos con el prop&oacute;sito de acercar la salud visual
+                    a las personas, rompiendo con los esquemas de la &oacute;ptica tradicional.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb30">
+                <img src="images/experiencia.jpg" alt="Atenci&oacute;n visual profesional" class="img-fluid mb20">
+                <h4>16+ A&ntilde;os de Experiencia</h4>
+                <p>
+                    M&aacute;s de 16 a&ntilde;os de experiencia profesional en el rubro &oacute;ptico,
+                    respaldando cada atenci&oacute;n con calidad y confianza.
+                </p>
+            </div>
+            <div class="col-md-4 mb30">
+                <img src="images/tecnologia.jpg" alt="Equipos tecnol&oacute;gicos &oacute;pticos" class="img-fluid mb20">
+                <h4>Tecnolog&iacute;a de Vanguardia</h4>
+                <p>
+                    Equipos de alta tecnolog&iacute;a para realizar ex&aacute;menes visuales completos
+                    y maquinaria precisa para la confecci&oacute;n de lentes personalizados.
+                </p>
+            </div>
+            <div class="col-md-4 mb30">
+                <img src="images/movil.jpg" alt="Evaluaci&oacute;n visual a domicilio" class="img-fluid mb20">
+                <h4>Servicio M&oacute;vil</h4>
+                <p>
+                    Atenci&oacute;n a domicilio en Santiago, operativos a terreno y env&iacute;os seguros
+                    a todo Chile. La &oacute;ptica llega donde t&uacute; est&aacute;s.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dzsparallaxer auto-init height-is-based-on-content " data-options='{   direction: "reverse"}'>
+        <div class="divimage dzsparallaxer--target "
+            style="width: 101%; height: 130%; background-image: url(images/bg2.jpg)">
+        </div>
+        <div class="semi-black-overlay"></div>
+        <div class="container pt100 pb100">
+            <div class="row pb50">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h3 class="h1 text-center font300 text-white">" Ve donde quieras &mdash; Profesionales de la salud visual a tu servicio "</h3>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#servicios" class="btn btn-white-outline btn-lg">Ver Servicios</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="servicios" class="bg-faded">
+        <div class="container pt90 pb60">
+            <h4 class="text-center mb50 font700 h2">Nuestros Servicios</h4>
+            <div class="row">
+                <div class="col-md-6 mb30">
+                    <img src="images/online.jpg" alt="Lentes y equipos &oacute;pticos" class="img-fluid mb30">
+                    <h3 class="mb20 font300">Venta Online Asistida</h3>
+                    <p>
+                        Explora nuestro cat&aacute;logo digital. Te asesoramos y acompa&ntilde;amos en cada paso
+                        del proceso para elegir el cristal y el marco perfecto para ti.
+                    </p>
+                    <h5>Asesor&iacute;a personalizada durante todo el proceso</h5>
+                    <p class="lead">
+                        Cotiza desde <strong class="text-primary">casa</strong>
+                    </p>
+                </div>
+                <div class="col-md-6 mb30">
+                    <img src="images/domicilio.jpg" alt="Atenci&oacute;n visual a domicilio" class="img-fluid mb30">
+                    <h3 class="mb20 font300">Atenci&oacute;n a Domicilio</h3>
+                    <p>
+                        Llevamos la &oacute;ptica a tu hogar dentro de Santiago, entregando una atenci&oacute;n c&oacute;moda,
+                        personalizada y experta. Vamos a tu casa con el muestrario de marcos.
+                    </p>
+                    <h5>Exclusivo Santiago</h5>
+                    <p class="lead">
+                        Agenda tu hora por <strong class="text-primary">web o WhatsApp</strong>
+                    </p>
+                </div>
+                <div class="col-md-6 mb30">
+                    <img src="images/terreno.jpg" alt="Evaluaci&oacute;n visual en terreno" class="img-fluid mb30">
+                    <h3 class="mb20 font300">Operativos a Terreno</h3>
+                    <p>
+                        Trasladamos nuestra consulta a empresas, instituciones y comunidades, utilizando
+                        equipos tecnol&oacute;gicos para realizar ex&aacute;menes visuales completos.
+                    </p>
+                    <h5>Alta tecnolog&iacute;a en terreno</h5>
+                    <p class="lead">
+                        Ideal para <strong class="text-primary">empresas e instituciones</strong>
+                    </p>
+                </div>
+                <div class="col-md-6 mb30">
+                    <img src="images/envios.jpg" alt="Lentes terminados y orden de trabajo" class="img-fluid mb30">
+                    <h3 class="mb20 font300">Env&iacute;os a Regiones</h3>
+                    <p>
+                        Despachamos tus lentes listos a cualquier rinc&oacute;n del pa&iacute;s con rapidez y seguridad.
+                        Recibe tus lentes sin salir de casa.
+                    </p>
+                    <h5>Entregas r&aacute;pidas y seguras</h5>
+                    <p class="lead">
+                        A todo <strong class="text-primary">Chile</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="operativos" class="bg-dark pt90 pb60">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb30">
+                    <h2 class="mb30 text-white"><i class="icon-gift fa-1x"></i> &iquest;Por Qu&eacute; Elegirnos?</h2>
+                    <ul class="list-unstyled text-white-gray lead">
+                        <li class="mb20"><strong class="text-white">Confianza m&eacute;dica:</strong> M&aacute;s de 16 a&ntilde;os de experiencia profesional.</li>
+                        <li class="mb20"><strong class="text-white">Tecnolog&iacute;a y precisi&oacute;n:</strong> Equipamiento tecnol&oacute;gico para ex&aacute;menes precisos.</li>
+                        <li class="mb20"><strong class="text-white">Asesor&iacute;a humana:</strong> Atenci&oacute;n personalizada durante todo el proceso.</li>
+                        <li class="mb20"><strong class="text-white">Servicio m&oacute;vil:</strong> Atenci&oacute;n a domicilio, venta online y operativos en terreno.</li>
+                    </ul>
+                    <br>
+                    <a href="#contacto" class="btn btn-lg btn-white-outline">Cont&aacute;ctanos</a>
+                </div>
+                <div class="col-md-7 mb30">
+                    <img src="images/equipos.jpg" alt="Equipamiento tecnol&oacute;gico y lentes &oacute;pticos" class="img-fluid img-fit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="guiacristales" class="container pt90 pb60">
+        <h4 class="text-center mb50 font700 h2">Gu&iacute;a de Cristales y Filtros</h4>
+        <div class="row">
+            <div class="col-md-4 mb30">
+                <div class="pricing-card">
+                    <h4>
+                        <span class="float-right text-primary font700">Monofocales</span>
+                        Una distancia
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li>Cristales para una sola distancia</li>
+                        <li>Ideal para cerca o lejos</li>
+                        <li>Visi&oacute;n n&iacute;tida y clara</li>
+                        <li>Alta precisi&oacute;n &oacute;ptica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 mb30">
+                <div class="pricing-card">
+                    <h4>
+                        <span class="float-right text-primary font700">Bifocales</span>
+                        Dos distancias
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li>Ver de lejos y de cerca</li>
+                        <li>En un mismo lente</li>
+                        <li>L&iacute;nea divisoria visible</li>
+                        <li>Soluci&oacute;n cl&aacute;sica y efectiva</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 mb30">
+                <div class="pricing-card">
+                    <h4>
+                        <span class="float-right text-primary font700">Progresivos</span>
+                        Multidistancia
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li>Ver a distintas distancias</li>
+                        <li>Sin l&iacute;neas divisorias</li>
+                        <li>M&aacute;xima comodidad visual</li>
+                        <li>Tecnolog&iacute;a moderna</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row mt30">
+            <div class="col-12">
+                <h4 class="text-center mb30 font700">Tratamientos y Filtros de Protecci&oacute;n</h4>
+            </div>
+            <div class="col-md-3 mb20">
+                <div class="pricing-card text-center">
+                    <h5 class="font700">Antirreflejo</h5>
+                    <p>Reduce reflejos y mejora la comodidad visual</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb20">
+                <div class="pricing-card text-center">
+                    <h5 class="font700">Filtro Azul</h5>
+                    <p>Protege la vista frente al uso de pantallas digitales</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb20">
+                <div class="pricing-card text-center">
+                    <h5 class="font700">Fotocrom&aacute;tico</h5>
+                    <p>Cristales que se oscurecen autom&aacute;ticamente con el sol</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb20">
+                <div class="pricing-card text-center">
+                    <h5 class="font700">Polarizados</h5>
+                    <p>Reducen reflejos y entregan mayor nitidez bajo el sol</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt90 pb60">
+        <div class="row align-items-center">
+            <div class="col-md-5 mb30">
+                <img src="images/about.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 offset-md-1 mb30">
+                <h3 class="font300 mb20 h2">Proceso de <span class="text-primary">Atenci&oacute;n</span></h3>
+                <div class="row">
+                    <div class="col-md-6 mb20">
+                        <div class="proceso-card">
+                            <h5 class="font700 text-primary">Atenci&oacute;n a Domicilio</h5>
+                            <ol>
+                                <li>Agendas tu hora por la web o WhatsApp</li>
+                                <li>Vamos a tu casa con el muestrario de marcos</li>
+                                <li>Confeccionamos tu lente a medida</li>
+                                <li>Te entregamos tus lentes en tu domicilio</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb20">
+                        <div class="proceso-card">
+                            <h5 class="font700 text-primary">Venta Online para Regiones</h5>
+                            <ol>
+                                <li>Elige tu marco en el cat&aacute;logo</li>
+                                <li>Env&iacute;anos tu receta y te asesoramos por WhatsApp</li>
+                                <li>Fabricamos tu lente personalizado</li>
+                                <li>Despachamos a tu regi&oacute;n con total seguridad</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-primary pt90 pb60" id="galeria">
+        <div class="container">
+            <h4 class="text-center mb50 text-white font700 h2">Galer&iacute;a de Im&aacute;genes</h4>
+            <div class="row gallery-row">
+                <div class="col-sm-6 col-md-6 col-lg-3 mb20">
+                    <a href="images/ima1.png" class="gallery-item">
+                        <img src="images/ima1.png" alt="Lentes &oacute;pticos y de sol te&ntilde;idos" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb20">
+                    <a href="images/ima2.png" class="gallery-item">
+                        <img src="images/ima2.png" alt="Lentes de sol polarizados" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb20">
+                    <a href="images/ima3.png" class="gallery-item">
+                        <img src="images/ima3.png" alt="Promoci&oacute;n de lentes polarizados" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 mb20">
+                    <a href="images/ima4.png" class="gallery-item">
+                        <img src="images/ima4.png" alt="Colecci&oacute;n de lentes de sol" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt90 pb90">
+        <div class="row">
+            <div class="col-12 text-center mb50">
+                <h4 class="font700 h2">Garant&iacute;as y Respaldo</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 mb30 text-center">
+                <div class="pricing-card" style="height:100%;">
+                    <h5 class="font700">Garant&iacute;a de Receta</h5>
+                    <p>Adaptaci&oacute;n de los cristales seg&uacute;n receta m&eacute;dica</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb30 text-center">
+                <div class="pricing-card" style="height:100%;">
+                    <h5 class="font700">Garant&iacute;a de Progresivos</h5>
+                    <p>Cambio dentro de los primeros 30 d&iacute;as si no te adaptas</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb30 text-center">
+                <div class="pricing-card" style="height:100%;">
+                    <h5 class="font700">Garant&iacute;a de Cristales</h5>
+                    <p>Cobertura por fallas de laboratorio</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb30 text-center">
+                <div class="pricing-card" style="height:100%;">
+                    <h5 class="font700">Garant&iacute;a de Marco</h5>
+                    <p>Cobertura por fallas de f&aacute;brica</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-faded pt90 pb60" id="contacto">
+        <div class="container">
+            <h4 class="text-center mb50 font700 h2">Contacto</h4>
+            <div class="row align-items-start">
+                <div class="col-md-4 mb30">
+                    <h4 class="text-uppercase h6 font700">Informaci&oacute;n de Contacto</h4>
+                    <p>
+                        <strong>Correo:</strong> opticajyc@gmail.com
+                    </p>
+                    <p>
+                        <strong>WhatsApp:</strong> +56 9 2755 0322
+                    </p>
+                    <p>
+                        <strong>Cobertura:</strong> Atenci&oacute;n a domicilio en Santiago y env&iacute;os a todo Chile.
+                    </p>
+                    <br>
+                    <h4 class="text-uppercase h6 font700">Medios de Pago</h4>
+                    <p>
+                        Aceptamos tarjetas de d&eacute;bito y cr&eacute;dito, pagos mediante Mercado Pago,
+                        transferencias electr&oacute;nicas y efectivo para atenciones presenciales.
+                    </p>
+                    <br>
+                    <h4 class="text-uppercase h6 font700">Redes Sociales</h4>
+                    <p>
+                        <a href="https://www.instagram.com/optica_jyc/" target="_blank">Instagram: @optica_jyc</a><br>
+                        <a href="https://www.facebook.com/share/1btDtqNaHL/" target="_blank">Facebook: &Oacute;ptica JyC</a>
+                    </p>
+                </div>
+                <div class="col-md-7 ml-auto mb30">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-card">
+                                <h3 class="h5 font700">Empresa o Instituci&oacute;n</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Nombre de la Empresa" id="empresa" name="empresa">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Persona de Contacto" id="contacto_empresa" name="contacto_empresa">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="tel" placeholder="Tel&eacute;fono" id="telefono_empresa" name="telefono_empresa">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="number" placeholder="Cantidad Aproximada de Personas" id="cantidad" name="cantidad">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4" placeholder="Mensaje" id="mensaje_empresa" name="mensaje_empresa"></textarea>
+                                    </div>
+                                    <button class="btn btn-lg btn-block btn-dark" type="submit">Solicitar Informaci&oacute;n</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-card">
+                                <h3 class="h5 font700">Persona Natural</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Nombre" id="nombre" name="nombre">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="email" placeholder="Correo Electr&oacute;nico" id="correo" name="correo">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="tipo" name="tipo">
+                                            <option>Tipo de Consulta</option>
+                                            <option>Venta online</option>
+                                            <option>Atenci&oacute;n a domicilio</option>
+                                            <option>Operativo a terreno</option>
+                                            <option>Consulta general</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4" placeholder="Mensaje" id="mensaje" name="mensaje"></textarea>
+                                    </div>
+                                    <button class="btn btn-lg btn-block btn-dark" type="submit">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#contacto" class="btn btn-block btn-primary pt40 pb40 btn-lg">Agenda tu hora y recibe atenci&oacute;n personalizada</a>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb30">
+                    <h4>&Oacute;ptica JyC</h4>
+                    <ul class="list-unstyled contact">
+                        <li><i class="fa fa-home"></i>
+                            Atenci&oacute;n a domicilio en Santiago<br>Env&iacute;os a todo Chile
+                        </li>
+                        <li><i class="fa fa-phone"></i>
+                            +56 9 2755 0322
+                        </li>
+                        <li><i class="fa fa-envelope-o"></i>
+                            <a href="mailto:opticajyc@gmail.com">opticajyc@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb30">
+                    <h4>Horario de Atenci&oacute;n</h4>
+                    <ul class="list-unstyled">
+                        <li>Lunes a Viernes - 9:00 am - 7:00 pm</li>
+                        <li>S&aacute;bado - 10:00 am - 2:00 pm</li>
+                        <li>Domingo - Cerrado</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb30">
+                    <h4>Solicitudes y Contacto</h4>
+                    <p>
+                        &Oacute;ptica JyC ofrece operativos a terreno para empresas, juntas de vecinos
+                        y comunidades que deseen acceder a servicios de salud visual en sus propias instalaciones.
+                    </p>
+                    <a href="#contacto" class="btn btn-white-outline">Solicitar Informaci&oacute;n</a>
+                </div>
+            </div>
+            <div class="row pt40">
+                <div class="col-md-6">
+                    <a href="https://www.facebook.com/share/1btDtqNaHL/" target="_blank" class="social-icon-sm si-dark si-colored-facebook si-gray-round">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/optica_jyc/" target="_blank" class="social-icon-sm si-dark si-colored-instagram si-gray-round">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-md-6 text-right">
+                    &copy; 2026 &Oacute;ptica JyC - Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <a href="https://wa.me/56927550322" class="whatsapp-float" target="_blank">
+        <img src="images/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <script type="text/javascript" src="js/plugins/plugins.js"></script>
+    <script type="text/javascript" src="js/beauty.custom.js"></script>
+    <script type="text/javascript" src="dzsparallaxer/dzsparallaxer.js"></script>
+    <script type="text/javascript" src="dzsparallaxer/scroller.js"></script>
+    <script type="text/javascript" src="dzsparallaxer/advancedscroller/plugin.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/revolution-custom.js"></script>
+</body>
+
+</html>
